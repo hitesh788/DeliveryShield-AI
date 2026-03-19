@@ -1,7 +1,8 @@
 DeliveryShield AI
 Parametric Income Protection for Delivery Workers
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Overview
-
+-----------
 DeliveryShield AI is an AI-powered parametric insurance platform designed to protect gig delivery workers from income loss caused by environmental and external disruptions.
 
 Delivery partners working with platforms like Swiggy and Zomato depend on daily earnings. However, factors like heavy rain, extreme heat, and pollution can reduce their working hours and significantly impact their income.
@@ -9,46 +10,46 @@ Delivery partners working with platforms like Swiggy and Zomato depend on daily 
 Our solution provides affordable weekly insurance coverage, using AI-driven risk modeling and real-time triggers to automatically compensate workers during disruptions without any manual claim process.
 
 Inspiration
-
+-------------
 India’s gig economy is rapidly growing, but delivery workers still lack financial protection against unpredictable disruptions.
 
 We observed that:
 
-A single rainy day can reduce earnings drastically
+   A single rainy day can reduce earnings drastically
 
-Extreme heat forces workers to stop working
+   Extreme heat forces workers to stop working
 
-Pollution makes outdoor work unsafe
+   Pollution makes outdoor work unsafe
 
 Despite this, no insurance product exists to protect their daily income.
 
 This inspired us to build DeliveryShield AI, a system focused purely on income protection.
 
 Problem Statement
-
+--------------------
 Delivery workers lose 20–30% of their weekly income due to:
 
-Heavy rainfall
+   Heavy rainfall
 
-Extreme heat
+   Extreme heat
 
-Severe pollution
+   Severe pollution
 
-Traffic shutdowns or curfews
+   Traffic shutdowns or curfews
 
-Traditional insurance:
+   Traditional insurance:
 
-Does not cover income loss
+   Does not cover income loss
 
-Requires manual claims
+   Requires manual claims
 
-Is not designed for gig workers
+   Is not designed for gig workers
 
 What It Does
-
+-------------------
 DeliveryShield AI:
 
-Calculates AI-based weekly premiums
+   Calculates AI-based weekly premiums
 
 Monitors real-time environmental conditions
 
