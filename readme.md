@@ -1,124 +1,229 @@
-# DeliveryShield AI
+DeliveryShield AI
+Parametric Income Protection for Delivery Workers
+Overview
 
-AI-Powered Parametric Insurance for Delivery Workers
+DeliveryShield AI is an AI-powered parametric insurance platform designed to protect gig delivery workers from income loss caused by environmental and external disruptions.
 
-## Overview
+Delivery partners working with platforms like Swiggy and Zomato depend on daily earnings. However, factors like heavy rain, extreme heat, and pollution can reduce their working hours and significantly impact their income.
 
-DeliveryShield AI is an AI-powered parametric insurance platform designed to protect gig delivery workers from income loss caused by environmental disruptions such as heavy rain, extreme heat, pollution, or floods.
+Our solution provides affordable weekly insurance coverage, using AI-driven risk modeling and real-time triggers to automatically compensate workers during disruptions without any manual claim process.
 
-Gig economy workers such as Swiggy and Zomato delivery partners rely heavily on daily deliveries for income. External disruptions can reduce their working hours and cause significant financial loss.
+Inspiration
 
-DeliveryShield AI provides affordable **weekly insurance coverage** and uses **AI-driven risk modeling** to automatically detect disruptions and trigger payouts.
+India’s gig economy is rapidly growing, but delivery workers still lack financial protection against unpredictable disruptions.
 
----
+We observed that:
 
-## Problem Statement
+A single rainy day can reduce earnings drastically
 
-Delivery workers often lose 20–30% of their weekly income due to:
+Extreme heat forces workers to stop working
 
-- Heavy rainfall
-- Extreme heat
-- Severe pollution
-- Flood alerts
-- Traffic shutdowns
+Pollution makes outdoor work unsafe
 
-Traditional insurance systems do not cover temporary income loss caused by environmental disruptions.
+Despite this, no insurance product exists to protect their daily income.
 
----
+This inspired us to build DeliveryShield AI, a system focused purely on income protection.
 
-## Proposed Solution
+Problem Statement
 
-DeliveryShield AI provides:
+Delivery workers lose 20–30% of their weekly income due to:
 
-- Weekly parametric insurance policies
-- AI-based risk assessment
-- Automated disruption detection
-- Automatic claim triggering
-- Fraud detection using machine learning
-- Instant payout simulation
+Heavy rainfall
 
----
+Extreme heat
 
-## Key Features
+Severe pollution
 
-- AI-powered risk prediction
-- Dynamic weekly premium calculation
-- Hyper-local risk modeling
-- Zero-touch claims process
-- Fraud detection using anomaly detection
-- Worker and admin dashboards
+Traffic shutdowns or curfews
 
----
+Traditional insurance:
 
-## Tech Stack
+Does not cover income loss
 
-Frontend  
-React.js  
-TailwindCSS  
+Requires manual claims
 
-Backend  
-Node.js  
-Express.js  
+Is not designed for gig workers
 
-Database  
-MongoDB  
+What It Does
 
-AI/ML  
-Python  
-Scikit-learn  
-Pandas  
+DeliveryShield AI:
 
-External APIs  
-OpenWeather API  
-AQI Pollution API  
-Google Maps API  
+Calculates AI-based weekly premiums
 
-Payment Simulation  
+Monitors real-time environmental conditions
+
+Uses parametric triggers to detect disruptions
+
+Automatically initiates claims
+
+Provides instant payouts (simulated)
+
+No paperwork
+No claim filing
+Fully automated system
+
+How It Works
+Worker Registration
+        ↓
+AI Risk Profiling
+        ↓
+Weekly Premium Calculation
+        ↓
+Policy Activation
+        ↓
+Real-Time Monitoring (Weather, AQI)
+        ↓
+Disruption Trigger Detected
+        ↓
+Automatic Claim Initiation
+        ↓
+Fraud Detection Check
+        ↓
+Instant Payout
+AI Integration
+1. Dynamic Risk Assessment
+
+Uses historical weather and location data
+
+Predicts risk level of disruption
+
+2. Weekly Premium Calculation
+
+Adjusts pricing based on:
+
+Location risk
+
+Environmental trends
+
+Worker activity
+
+3. Fraud Detection
+
+Detects:
+
+GPS spoofing
+
+Fake claims
+
+Duplicate claims
+
+Uses anomaly detection models
+
+Key Features
+
+AI-powered risk prediction
+
+Dynamic weekly pricing model
+
+Hyper-local disruption detection
+
+Zero-touch automated claims
+
+Fraud detection using machine learning
+
+Worker and admin dashboards
+
+Weekly Pricing Model
+Risk Level	Weekly Premium	Coverage
+Low	₹20	₹500
+Medium	₹40	₹1000
+High	₹70	₹2000
+
+Designed for gig workers
+Matches weekly earning cycles
+
+Parametric Triggers
+Trigger Type	Condition	Payout
+Rain	> 50mm rainfall	₹300
+Heat	> 40°C	₹200
+Pollution	AQI > 300	₹250
+Curfew	Government alert	₹500
+Tech Stack
+
+Frontend
+React.js, Tailwind CSS
+
+Backend
+Node.js, Express.js
+
+Database
+MongoDB
+
+AI/ML
+Python, Scikit-learn, Pandas
+
+APIs
+OpenWeather API, AQI API (Mock), Google Maps API
+
+Payments
 Razorpay Sandbox
 
----
+Target Persona
 
-## Workflow
+Food delivery partners working with:
 
-Worker Registration  
-↓  
-AI Risk Profiling  
-↓  
-Weekly Premium Calculation  
-↓  
-Policy Purchase  
-↓  
-System Monitors Disruptions  
-↓  
-Parametric Trigger Detected  
-↓  
-Automatic Claim Creation  
-↓  
-Fraud Detection  
-↓  
-Instant Payout
+Swiggy
 
----
+Zomato
 
-## Project Phases
+These workers:
 
-Phase 1 – Ideation & Foundation  
-Phase 2 – Automation & Protection  
-Phase 3 – Scale & Optimize
+Depend on daily income
 
----
+Work outdoors
 
-## Target Persona
+Are highly affected by environmental disruptions
 
-Food Delivery Partners working with platforms such as:
+Accomplishments
 
-- Swiggy
-- Zomato
+Designed a fully automated insurance system
 
-These workers rely on weekly income and are vulnerable to weather disruptions.
+Created a weekly pricing model for gig workers
 
----
+Integrated AI for pricing and fraud detection
 
-## Expected Impact
+Built a scalable architecture for real-world deployment
 
-DeliveryShield AI helps gig workers maintain financial stability by protecting them from unexpected income loss caused by environmental disruptions.
+What We Learned
+
+Understanding parametric insurance systems
+
+Applying AI in financial risk modeling
+
+Designing solutions for gig economy users
+
+Handling real-time automation workflows
+
+Challenges Faced
+
+Defining accurate disruption thresholds
+
+Designing a simple but effective pricing model
+
+Simulating real-time APIs
+
+Planning fraud detection systems
+
+Future Scope
+
+Real-time API integration
+
+Advanced fraud detection models
+
+Mobile app development
+
+Predictive analytics dashboard
+
+Integration with delivery platforms
+
+Expected Impact
+
+DeliveryShield AI ensures:
+
+Financial stability for gig workers
+
+Reduced income uncertainty
+
+Faster and fair insurance payouts
+
+Empowering the backbone of India’s digital economy
