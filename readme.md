@@ -64,6 +64,7 @@ No claim filing
 Fully automated system
 
 How It Works
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Worker Registration
         ↓
 AI Risk Profiling
@@ -111,6 +112,7 @@ Duplicate claims
 Uses anomaly detection models
 
 Key Features
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 AI-powered risk prediction
 
@@ -125,6 +127,7 @@ Fraud detection using machine learning
 Worker and admin dashboards
 
 Weekly Pricing Model
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Risk Level	Weekly Premium	Coverage
 Low	₹20	₹500
 Medium	₹40	₹1000
@@ -134,12 +137,15 @@ Designed for gig workers
 Matches weekly earning cycles
 
 Parametric Triggers
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 Trigger Type	Condition	Payout
 Rain	> 50mm rainfall	₹300
 Heat	> 40°C	₹200
 Pollution	AQI > 300	₹250
 Curfew	Government alert	₹500
+
 Tech Stack
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Frontend
 
@@ -166,6 +172,7 @@ Payments
 Razorpay Sandbox
 
 Target Persona
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Food delivery partners working with:
 
@@ -182,6 +189,7 @@ Work outdoors
 Are highly affected by environmental disruptions
 
 Accomplishments
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Designed a fully automated insurance system
 
@@ -192,6 +200,7 @@ Integrated AI for pricing and fraud detection
 Built a scalable architecture for real-world deployment
 
 What We Learned
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Understanding parametric insurance systems
 
@@ -202,6 +211,7 @@ Designing solutions for gig economy users
 Handling real-time automation workflows
 
 Challenges Faced
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Defining accurate disruption thresholds
 
@@ -212,6 +222,7 @@ Simulating real-time APIs
 Planning fraud detection systems
 
 Future Scope
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Real-time API integration
 
@@ -224,6 +235,7 @@ Predictive analytics dashboard
 Integration with delivery platforms
 
 Expected Impact
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 DeliveryShield AI ensures:
 
