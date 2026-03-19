@@ -83,7 +83,7 @@ Instant Payout
 AI Integration
 1. Dynamic Risk Assessment
 
-Uses historical weather and location data
+Uses historical weather + location data
 
 Predicts risk level of disruption
 
@@ -141,21 +141,27 @@ Curfew	Government alert	₹500
 Tech Stack
 
 Frontend
+
 React.js, Tailwind CSS
 
 Backend
+
 Node.js, Express.js
 
 Database
+
 MongoDB
 
 AI/ML
+
 Python, Scikit-learn, Pandas
 
 APIs
+
 OpenWeather API, AQI API (Mock), Google Maps API
 
 Payments
+
 Razorpay Sandbox
 
 Target Persona
