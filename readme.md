@@ -246,3 +246,59 @@ Reduced income uncertainty
 Faster and fair insurance payouts
 
 Empowering the backbone of India’s digital economy
+
+Adversarial Defense & Anti-Spoofing Strategy
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. Differentiation Between Genuine and Fraudulent Users
+
+DeliveryShield AI uses a multi-layer verification system to distinguish between legitimate delivery partners and malicious actors using GPS spoofing.
+
+Instead of relying solely on GPS location, the system analyzes behavioral and activity patterns, such as:
+
+Continuous movement patterns during delivery hours
+
+Order activity consistency
+
+Route behavior and travel speed
+
+Device motion signals
+
+A genuine delivery partner will show natural movement patterns, active delivery logs, and consistent behavior, whereas spoofed users often show static or unrealistic movement patterns.
+
+2. Data Points Used for Fraud Detection
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To detect coordinated fraud attempts, the system evaluates multiple data sources:
+
+GPS trajectory history (not just current location)
+
+Device sensor data (accelerometer, motion patterns)
+
+App activity logs (order pickups, drop-offs)
+
+Time-based behavior patterns
+
+Network data anomalies (sudden location jumps)
+
+Weather correlation check (matching real environmental conditions)
+
+Cluster detection for identifying multiple users showing identical suspicious patterns
+
+This multi-dimensional analysis makes it extremely difficult for fraudsters to bypass the system using simple spoofing tools.
+
+3. User Experience Balance (Fairness for Genuine Workers)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To ensure genuine workers are not penalized:
+
+Claims are not immediately rejected, but flagged for secondary validation
+
+A grace threshold is applied for minor inconsistencies (e.g., network drops)
+
+Users can be temporarily marked as “Under Review” instead of blocked
+
+The system uses confidence scoring, where only high-risk anomalies are rejected
+
+Manual or semi-automated review can be triggered for edge cases
+
+This approach ensures a balance between strong fraud prevention and fair treatment of honest workers.
